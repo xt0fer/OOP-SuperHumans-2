@@ -11,6 +11,11 @@ public class Human {
     //name, age, gender, phonenumber, email, occupation, and address
 
     String name = "";
+    int age = 0;
+    String phoneNumber = "";
+    String email = "";
+    String occupation = "";
+    String address = "";
 
     public String getName() {
         return name;
@@ -28,11 +33,11 @@ public class Human {
         this.age = age;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -60,11 +65,7 @@ public class Human {
         this.address = address;
     }
 
-    int age = 0;
-    int phoneNumber = 0;
-    String email = "";
-    String occupation = "";
-    String address = "";
+
 
 
 }
