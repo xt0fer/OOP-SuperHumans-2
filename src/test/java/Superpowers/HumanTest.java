@@ -69,17 +69,59 @@ public class HumanTest {
 
     @Test // TODO
     public void setEmailTest() {
+        //Given
+            //a human
+            // an email address
 
-        Assert.assertTrue(false);
+        Human testHuman = new Human();
+        String expected = "you@email.com";
+
+        //When
+            //a user or the dev sets the number
+
+        testHuman.setEmail(expected);
+        String actual = testHuman.getEmail();
+
+        //Then
+            //We expect to see the email:
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void setOccupationTest() {
-        Assert.assertTrue(false);
+        //Given
+            //a human
+            // an occupation
+        Human testHuman = new Human();
+        String expected = "superstar";
+
+        //When
+            //a user or dev sets the occupation
+        testHuman.setOccupation(expected);
+        String actual = testHuman.getOccupation();
+
+        //Then
+            //we expect to see the occupation
+
+        Assert.assertEquals(expected,actual);
     }
 
     @Test
     public void setAddressTest() {
-        Assert.assertTrue(false);
+        //Given
+            // a human
+            // an address
+        Human testHuman = new Human();
+        String expected = "123 street";
+
+
+        //When
+            //a user or dev sets the address
+        testHuman.setAddress(expected);
+        String actual = testHuman.getAddress();
+
+        //Then
+            //we expect to see the address
+        Assert.assertEquals(expected,actual);
     }
 }
