@@ -25,11 +25,11 @@ public class SuperHumansTest {
     public void setSuperPowerInfo() {
         // Given
         SuperHumans testperson = new SuperHumans();
-        String expected = "John Smith";
+        String expected = "Iron Man";
 
         // When
-        testperson.setName(expected);
-        String actual = testperson.getName();
+        testperson.setSuperPowerInfo(expected);
+        String actual = testperson.getSuperPowerInfo();
 
         // Then
         Assert.assertEquals(expected, actual);
@@ -53,7 +53,7 @@ public class SuperHumansTest {
 
     @Test
     public void addSuperHeroPower() {
-        
+
     }
 
     @Test

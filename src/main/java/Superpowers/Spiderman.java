@@ -1,6 +1,6 @@
 package Superpowers;
 
-public class Spiderman extends SuperHumans {
+public class Spiderman extends SuperHumans implements UniqueAttacks {
     private String comesFrom = "New York City";
     private String girlFriend = "Mary Jane";
 
@@ -14,6 +14,13 @@ public class Spiderman extends SuperHumans {
     public Spiderman(String superPowerInfo, String heroName, String goals) {
         super(superPowerInfo, heroName, goals);
 
-
     }
+
+    public String attackmethod(){
+        return "Shoots web";
+    }
+
+  //  Spiderman spiderman = new Spiderman("peter parker", 25);
+    //spiderman.attackmethod();
 }
+
