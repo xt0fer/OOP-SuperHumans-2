@@ -1,5 +1,5 @@
 package Superpowers;
 
 public interface UniqueAttacks {
-    public String
+    public String attackmethod();
 }

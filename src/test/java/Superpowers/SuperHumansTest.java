@@ -50,4 +50,13 @@ public class SuperHumansTest {
     @Test
     public void setGoals() {
     }
+
+    @Test
+    public void addSuperHeroPower() {
+        
+    }
+
+    @Test
+    public void getSuperHeroPower() {
+    }
 }

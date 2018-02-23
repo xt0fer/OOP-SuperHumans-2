@@ -48,7 +48,12 @@ public SuperHumans(String superPowerInfo, String heroName, String goals){
     }
 
     public void addSuperHeroPower (String superAbility){
+
         superHeroPower.add(superAbility);
+    }
+
+    public String getSuperHeroPower (ArrayList<String> superHeroPower){
+    return superHeroPower.toString();
     }
     //creating my superheroes
    //    public SuperHumans superman = new SuperHumans("rich guy", "batman", "wants to save Gothan");

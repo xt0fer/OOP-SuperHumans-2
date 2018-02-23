@@ -70,7 +70,7 @@ public class Human {
         this.age = age;
     }
 
-    Formatter outPut = new Formatter();
+  //  Formatter outPut = new Formatter();
 
     //creating Human object
 //    public Human averageJoe = new Human("Joe", "man", "CEO", "1234 Easy Street",  18);
