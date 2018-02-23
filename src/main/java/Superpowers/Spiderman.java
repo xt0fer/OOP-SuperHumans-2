@@ -20,7 +20,10 @@ public class Spiderman extends SuperHumans implements UniqueAttacks {
         return "Shoots web";
     }
 
-  //  Spiderman spiderman = new Spiderman("peter parker", 25);
-    //spiderman.attackmethod();
+
+//    public void attackkkkk() {
+//    Spiderman spiderman = new Spiderman("peter parker", 25);
+//    spiderman.attackmethod();
+//    }
 }
 

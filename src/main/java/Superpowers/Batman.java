@@ -18,9 +18,10 @@ private String girlFriend = null;
     public String attackmethod() {
         return "fist fighter";
     }
-    Batman batman = new Batman("Bruce wayne", 40);
 
-    Batman batman2 = new Batman("very rich", "the darkknight", "save people");
+
+   // Batman batman = new Batman("Bruce wayne", 40);
+   // Batman batman2 = new Batman("very rich", "the darkknight", "save people");
 
 
 }
