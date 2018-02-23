@@ -11,11 +11,11 @@
 ### Overview
 
 Complete the 'Human' class in the Superpowers Package that has fields for: 
-name, age, gender, phonenumber, email, occupation, and address. 
+fullName, age, gender, phonenumber, email, occupation, and address. 
 Also create methods for retrieving and outputting this data to screen.
 
 Then create a SuperHuman class and UNIT TEST that subclasses the Human with fields 
-for good or bad, hero name, super ability. As before, create methods for 
+for good or bad, hero fullName, super ability. As before, create methods for 
 retrieving field data and printing to screen.
 
 NOW, choose a few and create a several subclasses for famous SuperHumans:

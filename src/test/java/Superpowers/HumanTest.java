@@ -13,18 +13,18 @@ import org.junit.Test;
 
 public class HumanTest {
     @Test
-    public void setNameTest() {
+    public void setFullNameTest() {
         //Given:
             // a human
-            // a name NOT "ITS NAME" its just "A NAME"
+            // a fullName NOT "ITS NAME" its just "A NAME"
         Human testHuman = new Human();
         String expected = "Francis";
 
-        //When: somebody sets the name
-        testHuman.setName(expected);
-        String actual = testHuman.getName();
+        //When: somebody sets the fullName
+        testHuman.setFullName(expected);
+        String actual = testHuman.getFullName();
 
-        //Here's what we expected: the name
+        //Here's what we expected: the fullName
         Assert.assertEquals(expected,actual);
     }
 

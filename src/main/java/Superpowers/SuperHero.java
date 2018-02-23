@@ -1,6 +1,11 @@
 package Superpowers;
 
 public class SuperHero extends Human {
+
+    String superHeroName = "";
+    Boolean isGood = false;
+    String superPower = "";
+
     public static void main(String[] args) {
 
     }
@@ -13,11 +18,11 @@ public class SuperHero extends Human {
         this.superHeroName = superHeroName;
     }
 
-    public Boolean getGood() {
+    public Boolean isGood() {
         return isGood;
     }
 
-    public void setGood(Boolean good) {
+    public void setIsGood(Boolean good) {
         isGood = good;
     }
 
@@ -29,9 +34,6 @@ public class SuperHero extends Human {
         this.superPower = superPower;
     }
 
-    String superHeroName = "";
-    Boolean isGood = false;
-    String superPower = "";
 
 
 }
