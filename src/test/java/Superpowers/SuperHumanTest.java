@@ -22,14 +22,14 @@ public class SuperHumanTest {
         assertTrue(nameHasBeenSet);
     }
     @Test
-    public void setSuperAbility(){
+    public void setSuperAbilityTest(){
         String newAbility = "World's greatest detective";
         superHumans.setSuperAbility(newAbility);
         boolean abilityHasBeenSet = superHumans.getSuperAbility().contains(newAbility);
         assertTrue(abilityHasBeenSet);
     }
     @Test
-    public void isGoodOrBad(){
+    public void isGoodOrBadTest(){
         String newAlignment = "Good";
         superHumans.setAlignment(newAlignment);
         boolean alignmentHasBeenSet= superHumans.getAlignment().contains(newAlignment);

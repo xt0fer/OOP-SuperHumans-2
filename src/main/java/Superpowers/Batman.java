@@ -1,15 +1,13 @@
 package Superpowers;
 
-public class Batman extends SuperHumans {
+public class Batman extends SuperHumans implements Weapons, HasFriends{
 
 
-    public void throwsBatarangs(){
-        System.out.println(this.getHeroName() + "is throwing batarangs at you!");
+    public void weaponOfChoice(){
+        System.out.println(this.getHeroName() + " pins a villain with his batarang");
     }
-
-
-    public void hasButler() {
-        System.out.println(this.getHeroName() + "has a butler named Alfred");
+    public void hasSidekick(){
+        System.out.println(this.getHeroName() + " 's sidekick is his trusted butler Alfred");
     }
 
 
