@@ -15,7 +15,9 @@ public class HumanTest {
     String occupation = "";
     String phoneNumber = "";
     String expected = "" + 0 + "" + "" + "" + "" + "" + "";
-    System.out.println(name + " " + age + " " + gender + " " + address + " " + email + " "
-            + occupation + " " + phoneNumber + " " + expected);
+    System.out.println(name + "<>\n" + age + "<>\n" + gender + "<>\n" + address + "<>\n" + email + "<>\n"
+            + occupation + "<>\n" + phoneNumber + "<>\n" + expected + "<>\n");
     }
+
+
 }

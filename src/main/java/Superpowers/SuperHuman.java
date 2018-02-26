@@ -5,10 +5,11 @@ package Superpowers;
 // Lawful Evil      Neutral Evil        Chaotic Evil
 
 import java.util.ArrayList;
+import java.util.Formatter;
 
 public class SuperHuman extends Human{
     public String alignment;
-    public  String heroName;
+    public String heroName;
 
     public SuperHuman() {
 
@@ -16,14 +17,14 @@ public class SuperHuman extends Human{
 
     public SuperHuman(Integer age, String name, String gender, String occupation,
                  String address, String phoneNumber, String email) {
-        super(age, name, phoneNumber, email, address, occupation, gender);
+        super(age, name, gender, occupation, address, phoneNumber,  email);
     }
 
 
 
-    public SuperHuman(Integer age, String name, String gender, String occupation,
-                      String address, String phoneNumber, String email, String alignment, String heroName, String superAbility) {
-
+    public SuperHuman(Integer age, String name, String gender, String occupation, String address, String phoneNumber,
+                      String email, String alignment, String heroName) {
+        super(age, name, gender, occupation, address, phoneNumber,  email);
         this.alignment = alignment;
         this.heroName = heroName;
     }

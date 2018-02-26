@@ -1,6 +1,6 @@
 package Superpowers;
-
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+import java.util.Formatter;
+import java.util.FormatFlagsConversionMismatchException;
 
 /**
  * Complete the 'Human' class in the Superpowers Package that has fields for: name, age, gender,
@@ -11,12 +11,12 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 public class Human {
 
     protected String address;
-    protected Integer age;
+    protected  Integer age;
     protected String name;
-    protected String gender;
-    protected String occupation;
+    protected  String gender;
+    protected  String occupation;
     protected String phoneNumber;
-    protected String email;
+    protected  String email;
 
     public Human() {
 
@@ -30,7 +30,6 @@ public class Human {
         this.address = address;
         this.phoneNumber = phoneNumber;
         this.email = email;
-        System.out.println(name + age + gender + address + email + occupation + phoneNumber);
     }
     public Human(String name) {
 

@@ -6,17 +6,6 @@ import org.junit.Test;
 public class SuperHumanTest {
 
     @Test
-    public void pootieTangTest() {
-
-        String name = "Pootie";
-        String number = "615-834-5226";
-        String heroName = "Pootie Tang";
-        String Alignment = "Lawful Good";
-        String superPower = "Belt buckle ";
-
-    }
-
-    @Test
     public void pootieTangCatchPhraseTest() {
         PootieTang pootieTang = new PootieTang();
         String expected = "Cole me down on the panny sty.";
@@ -52,11 +41,6 @@ public class SuperHumanTest {
         String actual = pootieTang.favoriteWeapon();
         System.out.println(actual);
         Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void bladeTest() {
-
     }
     @Test
     public void bladeCatchPhraseTest() {
