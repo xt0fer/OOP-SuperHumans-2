@@ -7,25 +7,24 @@ public class SuperHumans extends Human {
 private String superPowerInfo = "";
 private String heroName = "";
 private String goals = "";
-private ArrayList<String> superHeroPower = new ArrayList<String>();
+//private ArrayList<String> superHeroTrait = new ArrayList<String>();
 
 
 
 
-//constructors
-public SuperHumans (){}
-public SuperHumans(String name, int age) {
-    super(name, age);
-}
-public SuperHumans(String superPowerInfo, String heroName, String goals){
-    this.superPowerInfo = superPowerInfo;
-    this.heroName = heroName;
-    this.goals = goals;
-}
-
-//methods
+    //constructors
+    public SuperHumans (){}
+    public SuperHumans(String name, int age) {
+        super(name, age);
+    }
+    public SuperHumans(String superPowerInfo, String heroName, String goals){
+        this.superPowerInfo = superPowerInfo;
+        this.heroName = heroName;
+        this.goals = goals;
+    }
 
 
+    //methods
     public String getSuperPowerInfo() {
         return superPowerInfo;
     }
@@ -47,29 +46,4 @@ public SuperHumans(String superPowerInfo, String heroName, String goals){
         this.goals = goals;
     }
 
-    public void addSuperHeroPower (String superAbility){
-
-        superHeroPower.add(superAbility);
-    }
-
-    public String getSuperHeroPower (ArrayList<String> superHeroPower){
-    return superHeroPower.toString();
-    }
-    //creating my superheroes
-   //    public SuperHumans superman = new SuperHumans("rich guy", "batman", "wants to save Gothan");
-  //   public SuperHumans batman = new SuperHumans();
-
-    }
-
-
-
-
-
-
-
-
-
-//
-//    public static void main(String[] args){
-//
-//    }
+}

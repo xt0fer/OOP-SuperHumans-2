@@ -2,7 +2,7 @@ package Superpowers;
 
 public class Batman extends SuperHumans implements UniqueAttacks{
 private String comesFrom = "Gotham City";
-private String girlFriend = null;
+private String girlFriend = "Forever Alone";
     public Batman() {
     }
 
@@ -13,15 +13,24 @@ private String girlFriend = null;
     public Batman(String superPowerInfo, String heroName, String goals) {
         super(superPowerInfo, heroName, goals);
     }
+    public Batman(String superPowerInfo, String heroName, String goals, String comesFrom, String girlFriend) {
+        super(superPowerInfo, heroName, goals);
+        this.comesFrom = comesFrom;
+        this.girlFriend = girlFriend;
+    }
 
     @Override
     public String attackmethod() {
-        return "fist fighter";
+        return "Stealth attack";
+    }
+    public String alterego(){
+        return "Bruce Wayne";
     }
 
+    public String transport(){
+        return "Bat Mobile";
+    }
 
-   // Batman batman = new Batman("Bruce wayne", 40);
-   // Batman batman2 = new Batman("very rich", "the darkknight", "save people");
 
 
 }

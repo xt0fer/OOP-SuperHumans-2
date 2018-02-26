@@ -16,14 +16,21 @@ public class Spiderman extends SuperHumans implements UniqueAttacks {
 
     }
 
+    public Spiderman(String superPowerInfo, String heroName, String goals, String comesFrom, String girlFriend) {
+        super(superPowerInfo, heroName, goals);
+        this.comesFrom = comesFrom;
+        this.girlFriend = girlFriend;
+
+    }
     public String attackmethod(){
         return "Shoots web";
     }
+    public String alterego(){
+        return "Peter Parker";
+    }
+    public String transport(){
+        return "Long Web Swing";
+    }
 
-
-//    public void attackkkkk() {
-//    Spiderman spiderman = new Spiderman("peter parker", 25);
-//    spiderman.attackmethod();
-//    }
 }
 

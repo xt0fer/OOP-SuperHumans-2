@@ -3,12 +3,14 @@ package Superpowers;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class SuperHumansTest {
 
     @Test
-    public void getSuperPowerInfo() {
+    public void testgetSuperPowerInfo() {
         // Given
         SuperHumans testHero = new SuperHumans();
         String expected = "Shoot fireballs";
@@ -35,28 +37,4 @@ public class SuperHumansTest {
         Assert.assertEquals(expected, actual);
     }
 
-    @Test
-    public void getHeroName() {
-    }
-
-    @Test
-    public void setHeroName() {
-    }
-
-    @Test
-    public void getGoals() {
-    }
-
-    @Test
-    public void setGoals() {
-    }
-
-    @Test
-    public void addSuperHeroPower() {
-
-    }
-
-    @Test
-    public void getSuperHeroPower() {
-    }
 }
