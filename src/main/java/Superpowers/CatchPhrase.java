@@ -1,5 +1,5 @@
 package Superpowers;
 
 public interface CatchPhrase {
-    String speak();
+    String catchPhrase();
 }

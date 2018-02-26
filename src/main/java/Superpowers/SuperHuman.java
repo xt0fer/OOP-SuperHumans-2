@@ -7,9 +7,8 @@ package Superpowers;
 import java.util.ArrayList;
 
 public class SuperHuman extends Human{
-    private String Alignment;
-    private  String heroName;
-    private ArrayList<String> superAbility = new ArrayList<>();
+    public String alignment;
+    public  String heroName;
 
     public SuperHuman() {
 
@@ -22,20 +21,12 @@ public class SuperHuman extends Human{
 
 
 
-    public SuperHuman(String Alignment, String heroName, String superAbility) {
+    public SuperHuman(Integer age, String name, String gender, String occupation,
+                      String address, String phoneNumber, String email, String alignment, String heroName, String superAbility) {
 
-        this.Alignment = Alignment;
+        this.alignment = alignment;
         this.heroName = heroName;
     }
-
-    public Object[] getSuperAbility() {
-        return superAbility.toArray();
-    }
-
-    public void addSuperAbility(String superPower) {
-        superAbility.add(superPower);
-    }
-
 
     public String getHeroName() {
         return heroName;
@@ -46,10 +37,10 @@ public class SuperHuman extends Human{
     }
 
     public String getAlignment() {
-        return Alignment;
+        return alignment;
     }
 
     public void setAlignment(String alignment) {
-        Alignment = alignment;
+        this.alignment = alignment;
     }
 }

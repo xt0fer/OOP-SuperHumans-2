@@ -1,5 +1,7 @@
 package Superpowers;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 /**
  * Complete the 'Human' class in the Superpowers Package that has fields for: name, age, gender,
  * occupation, and address. Also create methods for retreiving and outputing this data to screen.
@@ -8,26 +10,27 @@ package Superpowers;
  */
 public class Human {
 
-    private String address;
-    private Integer age;
-    private String name;
-    private String gender;
-    private String occupation;
-    private String phoneNumber;
-    private String email;
+    protected String address;
+    protected Integer age;
+    protected String name;
+    protected String gender;
+    protected String occupation;
+    protected String phoneNumber;
+    protected String email;
 
     public Human() {
 
     }
     public Human(Integer age, String name, String gender, String occupation,
                  String address, String phoneNumber, String email) {
-        this.address = address;
         this.age = age;
-        this.gender = gender;
         this.name = name;
+        this.gender = gender;
         this.occupation = occupation;
+        this.address = address;
         this.phoneNumber = phoneNumber;
         this.email = email;
+        System.out.println(name + age + gender + address + email + occupation + phoneNumber);
     }
     public Human(String name) {
 
