@@ -8,12 +8,6 @@ public class SuperHumans extends Human {
     public SuperHumans(){
     }
 
-    public SuperHumans(String heroName, String superAbility, String alignment) {
-        this.heroName = heroName;
-        this.superAbility = superAbility;
-        this.alignment = alignment;
-    }
-
     public SuperHumans(String name, Integer age, String gender, String phoneNumber, String email, String occupation, String address, String heroName, String superAbility, String alignment) {
         super(name, age, gender, phoneNumber, email, occupation, address);
         this.heroName = heroName;
