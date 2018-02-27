@@ -9,8 +9,9 @@ public class HumanTest {
     @Test
     public void setName() {
         Human human = new Human();
-        human.setName("Thor");
-        Assert.assertTrue(human.getName()== "Thor");
+        String expected = "Thor";
+        human.setName(expected);
+        Assert.assertTrue(human.getName()== expected);
     }
 
     @Test
@@ -23,8 +24,9 @@ public class HumanTest {
     @Test
     public void setGender() {
         Human human = new Human();
-        human.setGender("Male");
-        Assert.assertTrue(human.getGender() == "Male");
+        String expected = "Male";
+        human.setGender(expected);
+        Assert.assertEquals(human.getGender(), expected);
     }
 
     @Test

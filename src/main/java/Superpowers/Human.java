@@ -16,7 +16,7 @@ public class Human {
     public String phoneNumber;
     public String email;
     public String occupation;
-    public String address;
+    public  String address;
 
     public String getName() {
         return name;
