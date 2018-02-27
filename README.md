@@ -44,12 +44,17 @@ interface Weapons {
     String[] favoriteWeapons();
     boolean hasLaser();
     boolean canShootWebs();
+    
+    public String isHandsome(){}
+    //
 }
 interface AerialAptitude {
     boolean canFly();
     boolean canFlyThruSpace();
 }
 ```
+
+interace 
 
 feel free to "extends" any of these interfaces
 to accomodate a particular superhuman. (Or even add
